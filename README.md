@@ -22,8 +22,7 @@ status, date, notes). The program then:
 4. Once the upload succeeds, the file is moved into a `logs/` folder.
 
 ## Additional features
-
-<!-- 
+ 
 - Filter applications by status (e.g. show only "interview").
 - Simple statistics (how many applications, how many in each status).
 - Input validation (allowed status values, required fields).
@@ -32,8 +31,8 @@ status, date, notes). The program then:
 
 ## Requirements
 
-- Python 3.x
-- Google account with the Gmail and Drive APIs enabled
+- Python
+- Google account (Gmail and Drive APIs)
 - Python packages:
   - `python-docx`
   - `google-api-python-client`
