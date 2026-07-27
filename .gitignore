@@ -182,3 +182,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Google API secrets
+credentials.json
+token.json
+
+# Generated reports and logs
+*.docx
+logs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
