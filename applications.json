@@ -1,0 +1,20 @@
+[
+    {
+        "company": "IBM",
+        "role": "QA",
+        "status": "Applied",
+        "date": "2026-06-09"
+    },
+    {
+        "company": "Intel",
+        "role": "Analyst",
+        "status": "Offer",
+        "date": "2026-06-26"
+    },
+    {
+        "company": "Meta",
+        "role": "Technical support",
+        "status": "Interviewing",
+        "date": "2026-07-12"
+    }
+]
