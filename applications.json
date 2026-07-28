@@ -16,5 +16,29 @@
         "role": "Technical support",
         "status": "Interviewing",
         "date": "2026-07-12"
+    },
+    {
+        "company": "IBM",
+        "role": "2",
+        "status": "Applied",
+        "date": "2026-05-11"
+    },
+    {
+        "company": "Intel",
+        "role": "QA",
+        "status": "Applied",
+        "date": "2026-06-01"
+    },
+    {
+        "company": "Meta",
+        "role": "Technical support",
+        "status": "Offer",
+        "date": "2026-06-22"
+    },
+    {
+        "company": "Teleperformance",
+        "role": "Analyst",
+        "status": "Offer",
+        "date": "2026-07-20"
     }
 ]
