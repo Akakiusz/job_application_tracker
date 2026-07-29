@@ -1,31 +1,31 @@
 # Job Application Tracker
 
 A command-line Python program that helps a user record job applications, saves
-them to a Word document, and uploads the report to Google (Drive + Gmail).
+them to a Word document, and emails the report to the user via the Gmail API.
 Built as a Continuous Assessment project for the Diploma in Python Programming
 (CCT College Dublin).
-
-> **Status:** Work in progress. This README will be updated as features are completed.
 
 ---
 
 ## What it does
 
-The user enters details of the jobs they have applied for (company, role,
-status, date, notes). The program then:
+The user manages job applications through a simple menu.  The program can:
 
-1. Collects the application data from the user.
-2. Saves a report as a `.docx` file, named with the download date.
-3. Uses a web API to log in and upload the data:
-   - **Google Drive API** – uploads the `.docx` report to the user's Drive.
-   - **Gmail API** – emails the user a copy / confirmation.
-4. Once the upload succeeds, the file is moved into a `logs/` folder.
+1. Collect job applications from the user (company, role, status, date applied).
+2. Save all applications to a `.docx` report, named with the current date in
+   `year-month-day` format (e.g. `job_applications_2026-07-28.docx`).
+3. Log in through the Gmail API (OAuth 2.0) and email the report to the user as
+   an attachment.
+4. Move the report into a `logs/` folder once it has been sent.
 
 ## Additional features
- 
-- Filter applications by status (e.g. show only "interview").
-- Simple statistics (how many applications, how many in each status).
-- Input validation (allowed status values, required fields).
+
+-  **Persistent storage (JSON):** applications are saved to `applications.json`
+  and reloaded automatically when the program starts, so data is not lost
+  between runs.
+-  **Statistics:** the program can display the total number of applications and a
+  breakdown by status (Applied, Interviewing, Offer, Rejected).
+
 
 ---
 
